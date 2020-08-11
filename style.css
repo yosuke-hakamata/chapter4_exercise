@@ -6,19 +6,10 @@
 }
 .header {
   width: 100%; /* 横幅いっぱい */
-  height: 120px; /* 高さ120px */
-  background-color: red; /* 背景色red */
-}
-.header-top {
-  width: 100%; /* 横幅いっぱい */
-  height: 70px; /* 高さ100px */
-  background-color: hotpink; /* 背景色hotpink */
-}
-.header-bottom {
-  width: 100%; /* 横幅いっぱい */
   height: 50px; /* 高さ100px */
-  background-color: pink; /* 背景色pink */
+  background-color: red; /* 背景色hotpink */
 }
+
 /* clearfixを追加 */
 .clearfix::after {
   content: "";
@@ -30,30 +21,30 @@
   height: 300px; /* 高さ300px */
   background-color: orange; /* 背景色orange */
 }
-.main-visual-content {
-  width: 350px; /* 横幅350px */
-  height: 300px; /* 親の高さに揃える */
-  background-color: gold; /* 背景色gold */
-}
 .main {
-  width: 840px; /* 840px*/
-  background-color: green; /* 背景色green */
+  width: 960px; /* 960px*/
   margin: 0 auto;
 }
 .blog {
-  width: 600px; /* 横幅600px */
+  width: 500px; /* 横幅600px */
   height: 1400px;
   background-color: limegreen; /* 背景色limegreen */
-  float: left; /* 要素を左揃えで並べる */
+  float: left;
 }
-.sidebar {
-  width: 240px; /* 横幅240px */
+.sidebar1 {
+  width: 230px; /* 横幅240px */
   height: 1400px;
   background-color: palegreen; /* 背景色palegreen */
   float: left; /* 要素を左揃えで並べる */
 }
+.sidebar2 {
+  width: 230px; /* 横幅240px */
+  height: 1400px;
+  background-color: palegreen; /* 背景色palegreen */
+  float: right; /* 要素を右揃えで並べる */
+}
 .footer {
   width: 100%; /* 横幅いっぱい */
-  height: 120px; /* 高さ120px */
+  height: 100px; /* 高さ120px */
   background-color: blue; /* 背景色blue */
 }
